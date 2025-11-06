@@ -17,8 +17,11 @@ O **LojaFácil** surge como uma solução acessível que automatiza essas tarefa
 
 ## Tecnologias Utilizadas
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js 
+- **Node.js** — Ambiente de execução  
+- **Express.js** — Framework backend  
+- **Express-Handlebars (HBS)** — Template engine para renderização das páginas  
+- **HTML5, CSS3 e JavaScript** — Frontend e interatividade  
+- **Simulação de dados** em arrays (sem banco de dados real)
 
 ## Estrutura dos CRUDs
 
@@ -36,3 +39,7 @@ O projeto inclui três CRUDs principais:
 ## Objetivo
 
 Facilitar a rotina de lojas de roupas, proporcionando **organização, agilidade e controle** em um sistema web simples, direto e eficiente.
+
+## Licença
+
+Este projeto é de uso educacional e foi desenvolvido para fins acadêmicos.
