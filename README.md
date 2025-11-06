@@ -28,7 +28,7 @@ O projeto inclui três CRUDs principais:
 2. **Clientes** — criação, leitura, atualização e exclusão  
 3. **Vendas** — criação, leitura, atualização e exclusão (com atualização automática do estoque)  
 
-##Equipe de Desenvolvimento
+## Equipe de Desenvolvimento
 
 - **Jonnas Pedro**  
 - **Laysa Marina**
