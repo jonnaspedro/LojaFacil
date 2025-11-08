@@ -7,7 +7,14 @@ body {
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
 }
-
+:root {
+    --bege: #f5ecdc; 
+    --bege-esc: #d7c9b2;  
+    --cinza: #7b7369;   
+    --cinza-esc: #4d4845; 
+    --esc: #1f1d20;    
+    --preto: #000000;
+}
 html, body {
             height: 100%;
             margin: 0;
@@ -16,7 +23,7 @@ html, body {
 
         body {
             font-family: Arial, sans-serif;
-            background-color: #FFFDF2;
+            background-color: var(--bege);
             display: flex;
             flex-direction: column;
         }
@@ -29,7 +36,7 @@ html, body {
 
         .site-header {
             background: linear-gradient(90deg, #000000, #000000);
-            color: white;
+            color: var(--bege);
             padding: 3px 0;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
@@ -53,34 +60,34 @@ html, body {
 
         .nav-links a {
             text-decoration: none;
-            color: #f4f4f4;
+            color: var(--bege-esc);
             font-weight: bold;
             transition: color 0.3s ease;
         }
 
         .nav-links a:hover {
-            color: #ffd369;
+            color: var(--cinza-esc);
         }
 
         main a {
             display: inline-block;
             margin: 10px;
             padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
+            background-color: var(--esc);
+            color: var(--bege);
             border-radius: 5px;
             text-decoration: none;
             transition: background 0.3s;
         }
 
         main a:hover {
-            background-color: #ffd369;
-            color: #000;
+            background-color: var(--cinza-esc);
+            color:#1f1d20;
         }
 
         footer {
-        background: #1e1e1e;
-        color: #f4f4f4;
+        background: #1f1d20;
+        color: var(--bege);
         text-align: center;
         padding: 5px 0;
         margin-top: 40px;
