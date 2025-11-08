@@ -114,4 +114,4 @@ app.post('/vendas/:id/excluir', (req, res) => {
 
 app.use((req, res) => res.status(404).render('404'));
 
-app.listen(PORT, () => console.log(`Servidor rodando em http://localhost:${PORT}`));
+module.exports = app;
