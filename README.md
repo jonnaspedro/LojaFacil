@@ -36,6 +36,9 @@ O projeto implementa **três CRUDs principais**:
 - **Jonnas Pedro**  
 - **Laysa Marina**
 
+## Turma
+2 Ano B
+
 ## 🎯 Objetivo
 
 Facilitar a rotina de gestão em lojas de roupas, proporcionando **organização, agilidade e controle** em um sistema web **leve, direto e eficiente**.
