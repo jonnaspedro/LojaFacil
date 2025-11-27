@@ -3,76 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>LojaFácil</title>
-
-    <style>
-
-      .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        background: #333;
-        color: #fff;
-      }
-
-      .logo {
-        font-size: 24px;
-        font-weight: bold;
-      }
-
-      .nav-links {
-        list-style: none;
-        display: flex;
-        gap: 20px;
-      }
-
-      .nav-links a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 18px;
-      }
-
-      .hamburger {
-        display: none;
-        font-size: 32px;
-        cursor: pointer;
-        user-select: none;
-      }
-    
-      @media (max-width: 700px) {
-        .hamburger {
-          display: block;
-        }
-
-        .nav-links {
-          display: none;
-          flex-direction: column;
-          background: #333;
-          width: 100%;
-          text-align: center;
-          padding: 20px 0;
-        }
-
-        .nav-links.show {
-          display: flex;
-        }
-
-        .nav-links li {
-          margin: 10px 0;
-        }
-      }
-    </style>
-
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js"></script>
   </head>
 
   <body>
-
     <header class="site-header">
       <nav class="navbar">
         <h1 class="logo">LojaFácil</h1>
-        
-        <div class="hamburger" onclick="toggleMenu()">☰</div>
-
         <ul class="nav-links">
           <li><a href="/">Início</a></li>
           <li><a href="/clientes">Clientes</a></li>
@@ -85,16 +23,12 @@
     <main>
       {{{body}}}
     </main>
+    <header>
 
     <footer>
       <p>© 2025 LojaFácil — Projeto Acadêmico</p>
     </footer>
 
-    <script>
-      function toggleMenu() {
-        document.querySelector(".nav-links").classList.toggle("show");
-      }
-    </script>
-
+    <script src="/js/script.js"></script>
   </body>
 </html>
